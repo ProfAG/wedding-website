@@ -63,7 +63,7 @@ a:hover {
   background: url('assets/cover.jpg') no-repeat 70% top/cover;
   display: table;
   text-align: center;
-  height: 80vh;
+  height: 85vh;
   width: 100%;
 }
 
@@ -92,7 +92,7 @@ a:hover {
   .hero-text {
     padding: 1.25rem;
     border-radius: 50px;
-    width: 50%;
+    width: 42%;
   }
 
   .hero-text h1 {
