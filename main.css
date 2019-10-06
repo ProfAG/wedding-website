@@ -60,18 +60,25 @@ a:hover {
 =======:)====*/
 
 .cover {
-  background: url('assets/cover.jpg') no-repeat 70% top/cover;
+  background: url('assets/cover.jpg') no-repeat 70% center/cover;
   display: table;
   text-align: center;
   height: 85vh;
   width: 100%;
 }
 
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('assets/cover.jpg') no-repeat center/cover;
+  }
+
+}
 
 
 .hero-text-wrapper {
   display: table-cell;
-  vertical-align:top;
+  vertical-align: bottom;
 }
 
 .hero-text {
@@ -92,7 +99,7 @@ a:hover {
   .hero-text {
     padding: 1.25rem;
     border-radius: 50px;
-    width: 42%;
+    width: 40%;
   }
 
   .hero-text h1 {
