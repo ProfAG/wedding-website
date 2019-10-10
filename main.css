@@ -81,6 +81,7 @@ a:hover {
 
 .hero-text-wrapper {
   display: table-cell;
+  vertical-align: middle;
 }
 
 .hero-text {
