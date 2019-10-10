@@ -75,6 +75,10 @@ a:hover {
     background: url('assets/cover.jpg') no-repeat center/cover;
        background-position:50% 45%;
   }
+  .hero-text {
+  margin-left: 850px;
+  margin-top: 450px;
+  }
 
 }
 
@@ -85,8 +89,6 @@ a:hover {
 }
 
 .hero-text {
-  margin-left: 850px;
-  margin-top: 450px;
   padding: .625rem;
   color: hsla(0,0%,100%,.8);
   background: hsla(100,0%,0%,.4);
