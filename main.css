@@ -20,7 +20,9 @@ body {
   color: #444349;
 }
 
-.locations,
+.locations{
+  text-align: center;
+}
 .program,
 .gifts,
 .faq,
@@ -63,7 +65,7 @@ a:hover {
   background: url('assets/cover.jpg') no-repeat 70% center/cover;
   display: table;
   text-align: center;
-  height: 85vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -71,6 +73,7 @@ a:hover {
 
   .cover {
     background: url('assets/cover.jpg') no-repeat center/cover;
+       background-position:50% 45%;
   }
 
 }
@@ -78,14 +81,14 @@ a:hover {
 
 .hero-text-wrapper {
   display: table-cell;
-  vertical-align: bottom;
 }
 
 .hero-text {
-
+  margin-left: 850px;
+  margin-top: 450px;
   padding: .625rem;
   color: hsla(0,0%,100%,.8);
-  background: hsla(100,0%,0%,.5);
+  background: hsla(100,0%,0%,.4);
 }
 
 .hero-text h1 {
