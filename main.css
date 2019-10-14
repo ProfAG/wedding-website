@@ -73,11 +73,15 @@ a:hover {
 
   .cover {
     background: url('assets/cover.jpg') no-repeat center/cover;
-       background-position:50% 45%;
+       background-position:50% 50%;
   }
   .hero-text {
-  margin-left: 850px;
-  margin-top: 450px;
+ position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    
   }
 
 }
@@ -86,6 +90,7 @@ a:hover {
 .hero-text-wrapper {
   display: table-cell;
   vertical-align: top;
+  position: relative;
 }
 
 .hero-text {
